@@ -40,5 +40,3 @@ introduceMe('Rajendra', 'Software Engineer', 19); // type => (string, string, nu
 introduceMe('Manish' , 'Mechanical Engineer', 24);
 introduceMe(); // for this username -> procoder
 
-
-
