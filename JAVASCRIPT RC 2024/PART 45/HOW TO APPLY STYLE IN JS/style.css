@@ -1,0 +1,30 @@
+.css-image {
+     color: red;
+     /* font-size: 18px;
+     font-family: cursive;
+     font-weight: 800;
+     text-decoration-line: none; */
+}
+
+.green-link {
+    color: teal;
+    text-decoration-line: none;
+    font-size: 18px;
+     font-family: cursive;
+     font-weight: 800;
+     
+}
+
+.wivy-link {
+     text-decoration-line: underline;
+     text-decoration-style: wavy;
+}
+
+.my-link {
+     border: 1px solid green;
+}
+
+
+.hidden {
+     display: none;
+}
