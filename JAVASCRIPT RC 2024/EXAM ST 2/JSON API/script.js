@@ -25,7 +25,7 @@
 
 // {
 //     "name" : "Rajendra",
-//     "coursename ": "Js in HIndi",
+//     "coursename ": "Js in Hindi",
 //     "price" : "free",
 // }
 

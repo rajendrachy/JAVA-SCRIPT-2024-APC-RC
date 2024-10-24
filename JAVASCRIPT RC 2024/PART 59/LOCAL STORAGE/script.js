@@ -25,7 +25,7 @@ const ageInput = document.querySelector('.age');
 //  localStorage.age // undefined
 
 
-// _________In local storage only the string and objrcts are stored__________________________
+// _________In local storage only the string and objects are stored__________________________
 
 
 
