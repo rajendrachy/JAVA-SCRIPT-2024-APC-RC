@@ -31,26 +31,48 @@
 
 // ____________API FETCH_______________
 
-let request = new XMLHttpRequest;
-console.log(request);
+// let request = new XMLHttpRequest;
+// console.log(request);
 
+// request.open("GET", "https://feecq.github.io/api/users.json");
+// request.send();
+
+// request.addEventListener("load", () => {
+//   console.log(request.response);
+
+//   let data = JSON.parse(request.response);
+//   data.forEach(value => {
+//     let para = document.createElement('p');
+//     // para.innerText = value.name + " " + value.id;
+//     for(let key in value) {
+//         para.innerText += `${key}: ${value[key]}`;
+//     }
+
+//     document.body.appendChild(para);
+//   })
+// })
+
+
+
+// ++++++++++++++++++ ______API___+++++++++++++++ FETCH ________Practicing________
+let request = new XMLHttpRequest;
 request.open("GET", "https://feecq.github.io/api/users.json");
 request.send();
 
 request.addEventListener("load", () => {
   console.log(request.response);
-
   let data = JSON.parse(request.response);
   data.forEach(value => {
     let para = document.createElement('p');
-    // para.innerText = value.name + " " + value.id;
     for(let key in value) {
-        para.innerText += `${key}: ${value[key]}`;
+      para.innerText += `${key} : ${value[key]}`;
     }
 
     document.body.appendChild(para);
-  })
-})
+  });
+});
+
+
 
 
 

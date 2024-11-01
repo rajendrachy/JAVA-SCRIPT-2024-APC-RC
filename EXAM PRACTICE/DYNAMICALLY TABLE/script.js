@@ -11,14 +11,35 @@ const users = [
     { "id": 10, "name": "Ashley Rodriguez", "username": "ashleyrodriguez", "email": "ashleyrodriguez@example.com", "address": "777 Pine St" }
 ];
 
-let tableBody = document.querySelector('#table-body');
+
+// let tableBody = document.querySelector('#table-body');
+// users.forEach((user) => {
+//     let row = document.createElement('tr');
+//     row.innerHTML = `<td> ${user.id}</td>
+//                      <td> ${user.name} </td>
+//                      <td> ${user.username}</td>
+//                      <td> ${user.email}</td>
+//                      <td> ${user.address}</td>
+//     `;
+//     tableBody.appendChild(row);
+// })
+
+
+
+// __________________Practice____________
+let tBody = document.querySelector('#table-body')
+
 users.forEach((user) => {
     let row = document.createElement('tr');
-    row.innerHTML = `<td> ${user.id}</td>
-                     <td> ${user.name} </td>
-                     <td> ${user.username}</td>
-                     <td> ${user.email}</td>
-                     <td> ${user.address}</td>
+
+    row.innerHTML = `
+                   <td> ${user.id}</td>
+                   <td> ${user.name}</td>
+                   <td> ${user.username}</td>
+                   <td> ${user.email}</td>
+                   <td> ${user.address};
+
+
     `;
-    tableBody.appendChild(row);
-})
+    tBody.append(row);
+});
