@@ -8,5 +8,5 @@ let age = 15;
 const yearOfBirth = 1999;
 console.log(firstName);
 
-
-// let userIntro = 'Hi, my name is ' + firstName + ' ' + lastName;
+ 
+// let userIntro = 'Hi, my name is ' + firstName + ' ' + lastName;    
