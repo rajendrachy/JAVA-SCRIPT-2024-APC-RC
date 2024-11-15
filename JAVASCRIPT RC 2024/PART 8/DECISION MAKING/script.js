@@ -8,23 +8,26 @@
 // document.write(userName);  // write in the document 
 
 
-const user = "Rajendra";
-const userAge = prompt("Enter your age");
 
-if(userAge >= 20) {
-    console.log("User is a working professional.");
-    // console.log("When the progam ran !");
-    console.log(`The user age is ${userAge}`);
+
+
+// const user = "Rajendra";
+// const userAge = prompt("Enter your age");
+
+// if(userAge >= 20) {
+//     console.log("User is a working professional.");
+//      console.log("When the progam ran !");
+//     console.log(`The user age is ${userAge}`);
     
-} else {
-    console.log(`Program Ended! by ${user}`);
+// } else {
+//     console.log(`Program Ended! by ${user}`);
 
-}
+// }
 
 
 
-// console.log(parseInt('34 de')); // 34
-// console.log(parseInt('bbxb 34 de')); // NaN
-// console.log(parseInt(null));  // NaN
+console.log(parseInt('34 de')); // 34
+console.log(parseInt('bbxb 34 de')); // NaN -> type is Number
+console.log(parseInt(null));  // NaN -> type is Number
 
 

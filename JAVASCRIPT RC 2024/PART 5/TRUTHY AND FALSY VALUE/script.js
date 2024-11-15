@@ -1,8 +1,8 @@
 // // write in a console
 // // in the case of the integer
 
-// Boolean(10) // true
-// Boolean(-1) // true
+//  Boolean(10) // true
+//  Boolean(-1) // true
 // Boolean(0) // false -->> only the 0 is false
 // // like-->> Infinity, -Infinity, -->> true
 // // but NaN -->> false

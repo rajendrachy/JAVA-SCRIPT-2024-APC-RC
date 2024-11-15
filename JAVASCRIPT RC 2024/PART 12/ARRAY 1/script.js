@@ -1,12 +1,12 @@
 //-----------  1. -----------------
 
-// const fruitsCollection = ["apple", "Banana", "Grapes", "Dates"]; // length -->> 4
+const fruitsCollection = ["apple", "Banana", "Grapes", "Dates"]; // length -->> 4
 
-// console.log(fruitsCollection[0]); // apple index -->> 0
-// console.log(typeof(fruitsCollection)); //object
-// console.log(typeof {}); // object
-// console.log(typeof []);  // object
-// console.log(typeof [].concat); // function
+console.log(fruitsCollection[0]); // apple index -->> 0
+console.log(typeof(fruitsCollection)); //object
+console.log(typeof {}); // object
+console.log(typeof []);  // object
+console.log(typeof [].concat); // function
 
 
 
@@ -80,11 +80,11 @@
 
 // -------------------- 6-.. -------------------
 
-const newObject = {};
-const newArray = [];
-console.log(newArray);
-newArray.firstName = 'Rajendra';
-console.log(newArray); // length -->> 0 
-newObject.firstName = "Rajendra";
-console.log(newArray);
+// const newObject = {};
+// const newArray = [];
+// console.log(newArray);
+// newArray.firstName = 'Rajendra';
+// console.log(newArray); // length -->> 0 
+// newObject.firstName = "Rajendra";
+// console.log(newArray);
 

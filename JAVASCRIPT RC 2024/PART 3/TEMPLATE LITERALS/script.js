@@ -1,19 +1,28 @@
 // const message = "Hello world!";
-// console.log(message[2]); // l
+// console.log(message[4]); // l
+// //_________________Length_____________________
 // console.log(message.length); // 12
 
-// // ------------------without argumants-----------
+
+
+
+// // ------------------Without argumants-----------
+
 // console.log(message.toLocaleUpperCase());
 // console.log(message.toLocaleLowerCase());
+
 // const faltumsg = '        Hi, I am Rajendra        ';
+// console.log(faltumsg)
 // console.log(faltumsg.trim()) // reduce the spaces from start and end
 // //                              Only remove the spaces not _____ and other
-// console.log(faltumsg.trimStart()); // remove the space from start
+//  console.log(faltumsg.trimStart()); // remove the space from start
 // console.log(faltumsg.trimEnd()); // remove the spaces from end
 
 
 
-// ----------------with argumants----------------
+
+
+// ----------------With argumants----------------
 // 1. Includes
 
 // const finalmsg = "Hi, I am Rajendra Chaudhary";
@@ -24,11 +33,12 @@
 
 
 //2 ---------- indexOf() ------------
+
 // const finalmsg = "Hi, I am Rajendra Chaudhary";
 
 // console.log(finalmsg.indexOf("I")); // 4 // if the character is not presence then the result => -1 (ans).
 // console.log(finalmsg.indexOf("am")) // give the index of a
-
+// console.log(finalmsg.indexOf('raj')) //#String is not present in the => finalmsg
 
 
 // 3. ------------replace()  and replaceAll()--------------
@@ -36,15 +46,17 @@
 // console.log(finalmsg);
 // console.log(finalmsg.replace("Hi", "Hello")); // Hi -->> Hello
 // console.log(finalmsg.replace("Bye", "Hello")); // No change because by is not presence
-// console.log(finalmsg.replaceAll("a", "A")); // Hi -->> Hello
+// console.log(finalmsg.replaceAll("a", "A")); // a -->> A over a whole string
 
 
 // 4. ------------Concat()-------------
 
-// const msg = "Hello woeld!";
+// const msg = "Hello world!";
 // const msg2 = "My nmae is Rajendra";
+// console.log(msg);
+// console.log(msg2);
 // console.log(msg + " " + msg2);
-// console.log(msg.concat(' ' , msg2));
+// console.log(msg.concat(' ', msg2));
 
 
 // 5. -------------padStart() & padEnd()-------------------
@@ -74,8 +86,9 @@
 
 //8. -------------split---------------
 //  const n = "My name is Rajendra Chaudhary";
+//  console.log(n);
 //  console.log(n.split(' ')); // split with space 
-//  console.log(n.split('a')); 
+//  console.log(n.split('a')); //Splite when a occurance => a removed
 
 
 

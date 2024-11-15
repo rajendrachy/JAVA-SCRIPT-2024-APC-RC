@@ -10,10 +10,10 @@
 
 
 
-//   console.log(Math.PI);
-//   console.log(Math.sqrt(16)); // 4
-//   console.log(2 ** 6); // 64
-//   console.log(Math.pow(2, 6)); // 64
+  // console.log(Math.PI); // output => PI value -> 3.14.........
+  // console.log(Math.sqrt(16)); // 4
+  // console.log(2 ** 6); // 64
+  // console.log(Math.pow(2, 6)); // 64
 
 
 
@@ -38,16 +38,16 @@
 
 
 // 3. ---------------Math.round()-----------------
-// console.log(Math.round(3.8)); // clogets number written
-// // output -> 4
+//console.log(Math.round(3.5)); // clogets number written
+// output -> 4
 
 
 
 
 
 //4 . ----------- Math.random() ------------------------
-// console.log(Math.random()); // math.random() given the number between 0 to 1 but not 1 
-// it gives the random nuberr while run 1000 times or more not give same value 
+//console.log(Math.random()); // math.random() given the number between 0 to 1 but not 1 
+// it gives the random nuberr while run 1000 times or not give same value 
 
 
 
@@ -57,7 +57,7 @@
 
 
 
-// console.log(Math.floor(Math.random() * 11) + 10); // calculate a random no betw 10 to 20
+// console.log(Math.floor(Math.random() * 11) + 10); // calculate a random no between 10 to 20
                          
 
 // Explanation: ----->>>> 

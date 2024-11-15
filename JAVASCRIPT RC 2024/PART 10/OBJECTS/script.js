@@ -66,9 +66,10 @@ const user2 = {
        state : 'Karnataka',
 
 
-       moreDetails : {
+       moreDetails : { // Nasted Objects
         population : 9388477484848,
         area : '787 sq km',
+
        }
     }
 } 
@@ -80,3 +81,4 @@ console.log(user2);
 console.log(user2.address);
 console.log(user2.address["pincode"]);
 console.log(user2.address.moreDetails["population"]);
+
