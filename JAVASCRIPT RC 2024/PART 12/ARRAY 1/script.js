@@ -1,12 +1,12 @@
-//-----------  1. -----------------
+//-----------  1.Array -----------------
 
-const fruitsCollection = ["apple", "Banana", "Grapes", "Dates"]; // length -->> 4
+// const fruitsCollection = ["apple", "Banana", "Grapes", "Dates"]; // length -->> 4 // Creating Array
 
-console.log(fruitsCollection[0]); // apple index -->> 0
-console.log(typeof(fruitsCollection)); //object
-console.log(typeof {}); // object
-console.log(typeof []);  // object
-console.log(typeof [].concat); // function
+// console.log(fruitsCollection[0]); // apple index -->> 0
+// console.log(typeof(fruitsCollection)); //object // Type of Array => Objects
+// console.log(typeof {}); // object
+// console.log(typeof []);  // object
+// console.log(typeof [].concat); // function
 
 
 
@@ -29,6 +29,7 @@ console.log(typeof [].concat); // function
 // ]
 
 // console.log(fruitCollection.length); // -->> 9
+// console.log(userName.length); // 18
 
 
 
@@ -40,12 +41,13 @@ console.log(typeof [].concat); // function
 // const fruitCollection = ["Apple", "Banana", "Grapes", {name : 'Rajendra', as : {age : 23}}, ];
 // console.log(fruitCollection);
 // console.log(fruitCollection[10]); // undefined
-// console.log(fruitCollection.length);
+// console.log("The Length is : ", fruitCollection.length);
 
 
 // fruitCollection[10] = 'My name is @chyrajendra';
 // console.log(fruitCollection);
-// console.log(fruitCollection.length);
+// console.log(fruitCollection.length); // insert value + 1
+
 
 
 // --------------- 4 PUSH --------------
@@ -65,12 +67,11 @@ console.log(typeof [].concat); // function
 
 // const fruitCollection = ['Apple', 'Banana', 'Grapes', 'Dates'];
 // fruitCollection.pop();  // last element is removed
-// // console.log(fruitCollection);
+// console.log(fruitCollection);
 // fruitCollection.pop();  // last element is removed
+// fruitCollection.pop();  // last element is removedconsole.log(fruitCollection); // Output -->>  Apple
 // fruitCollection.pop();  // last element is removed
-// // console.log(fruitCollection); // Output -->>  Apple
-// fruitCollection.pop();  // last element is removed
-// // console.log(fruitCollection);
+// console.log(fruitCollection);
 // fruitCollection.pop();
 
 
@@ -84,6 +85,8 @@ console.log(typeof [].concat); // function
 // const newArray = [];
 // console.log(newArray);
 // newArray.firstName = 'Rajendra';
+// newArray.push("chaudhary");
+// newArray.push("12")
 // console.log(newArray); // length -->> 0 
 // newObject.firstName = "Rajendra";
 // console.log(newArray);

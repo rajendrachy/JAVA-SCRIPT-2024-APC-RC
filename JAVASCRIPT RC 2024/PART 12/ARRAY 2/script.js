@@ -1,4 +1,4 @@
-// ----------  shift ---------------
+// ----------  shift => Similar to POP ---------------
 
 // const evenNumber = [0, 2, 4, 6, 8];
 // console.log(evenNumber.shift()); // remove the first element of the array i.e -->> 0
@@ -7,7 +7,7 @@
 // // removing the element from the first is difficult 
 
 
-// --------- unshift ------------
+// --------- unshift => Similar to PUSH ------------
 
 // const evenNumber = [0, 2, 4, 6, 8];
 // console.log(evenNumber.unshift(-2, -5, -0));
@@ -16,7 +16,7 @@
 
 
 
-// -------------- concat-----------------
+// -------------- Concat-----------------
 
 // const evenNUmber = [0, 2, 4, 6, 8];
 // const  number = [1, 3, 5, 7, 9];
@@ -65,20 +65,24 @@
 
 
 // -------------- slice --------------------
+
 // const animals = ['Dog', 'Cat', 'Man', 'Duck']; 
-// console.log(animals.slice(1)); // start from index 1 and create a new array
+// console.log(animals.slice(1)); // Start from index 1 and Create a new array
 // // the prove is below
 // console.log(animals); // original array
 
-// console.log(animals.slice(1,3)); // from starting value to index 2 but not the enging value 
-
+// console.log(animals.slice(1,3)); // from starting value to index 2 but not include the ending value 
+// //                                  slice(StartIdx, EndIdx)
 
 
 // --------------- splice ----------------
-// const animals = ['Dog', 'Cat', 'Man', 'Duck']; 
-// console.log(animals.splice(2, 1)); // Man -->> splice(start, delete, end);
-// // splice create a new array ut also change the originl array
-// // the prove is below
-// console.log(animals); // original array is changed , ->> Man is not shown 
-// console.log(animals.splice(2,1, "Bats"));
-// console.log(animals); // put Bats in the place of the original array
+
+const animals = ['Dog', 'Cat', 'Man', 'Duck']; 
+console.log(animals.splice(2, 1)); // Man -->> Splice(startIdx, delete, endIdx);
+// splice create a new array and also change the originl array
+// the prove is below
+console.log(animals); // original array is changed , ->> Man removed from a original Array
+console.log(animals.splice(2,1, "Bats"));
+console.log(animals); // put Bats in the place of the original array
+
+

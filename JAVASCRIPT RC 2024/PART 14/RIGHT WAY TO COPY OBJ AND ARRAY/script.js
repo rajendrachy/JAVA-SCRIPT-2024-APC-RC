@@ -1,13 +1,15 @@
+//_______________ARRAY____________________
+
 // const fruits = ['Mango', 'Apple', 'Orange'];
 // console.log(fruits)
-// const myFruits = fruits; // copy by assign
+// const myFruits = fruits; // Copy by assign
 // myFruits.push('Dates');
 // myFruits.push('Grapes');
 // console.log(myFruits);
 
 
 
-// ------------- in Objects -----------------
+// ------------- Objects -----------------
 
 // const user = {
 //     firstName : 'Rajendra',
@@ -16,6 +18,7 @@
 
 // const user2 = user;
 // user.lastName = 'CHY';
+// // user2.lastName = "Chaudharyraj" // Change in the Both
 // console.log(user); // change in the user and user 2 -->> change in the both
 // console.log(user2);
 
@@ -29,10 +32,14 @@
 //     lastName : 'Chaudhary',
 // }
 
+
+
+
 // const user2 = {}; 
 // // ---- Using a Object.assign() ---------
-// Object.assign(user2,user); // this is useful begore 2016 // User all the property is assign to the  USER2-->> allthe property
+// Object.assign(user2,user); // This is useful before 2016 // User all the property is assign to the  USER2-->> allthe property
 // console.log(user2);
+
 
 
 
@@ -52,7 +59,7 @@
 
 
 
-// -----------Right way Using a Spread Operator-----------------
+// -----------Right way Using a Spread Operator in OBJ-----------------
 
 // const user = {
 //     firstName : 'Rajendra',
@@ -60,16 +67,17 @@
 // }
 // const user2 = {...user}; // using a spread operator // COPY
 // console.log(user2);
+// console.log(user)
 
 
 
 
-// ---- using a spread operator --------------
+// ---- using a spread operator In ARRAY--------------
 
-// const fruits = ['Mango', 'Apple', 'Orange'];
-// const myFruits = [...fruits]; // copy all the values from fruits or duplicate
-// console.log(myFruits);
-// console.log(fruits);
+const fruits = ['Mango', 'Apple', 'Orange'];
+const myFruits = [...fruits]; // copy all the values from fruits or duplicate
+console.log(myFruits);
+console.log(fruits);
 
 
 
@@ -85,7 +93,8 @@
 
 
 
-// --------- slice---------------
+// --------- Slice---------------
+
 // const fruits = ['Mango', 'Apple', 'Orange', "jd"];
 // const myFruits = fruits.slice();
 // console.log(myFruits);
