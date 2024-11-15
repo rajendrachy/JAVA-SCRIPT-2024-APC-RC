@@ -1,4 +1,4 @@
-'use strict'
+//'use strict'
 
 const username = 'Anurag'
 let userAge = 25

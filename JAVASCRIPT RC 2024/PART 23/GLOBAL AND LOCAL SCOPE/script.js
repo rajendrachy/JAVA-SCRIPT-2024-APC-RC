@@ -1,5 +1,5 @@
 // EPISOD -> 33
-// debugger
+ debugger
 const username = "Rajendra"; // script
 const userage = 19; // script// use debugger and check
 

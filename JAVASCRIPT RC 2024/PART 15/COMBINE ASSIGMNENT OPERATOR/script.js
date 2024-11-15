@@ -1,14 +1,14 @@
 // ---EPISOD - 27---
 
-// let num = 5;
-// // debugger
-// // num = num + 5;
-// // num = num + 5;
-// // num = num + 5;
-// // num = num + 5;     
+let num = 5;
+//debugger
+num = num + 5;
+num = num + 5;
+num = num + 5;
+num = num + 5;     
 
-// num += 5; // same as -->> num = num + 5;
-// console.log(num);
+num += 5; // Same as -->> num = num + 5;
+console.log(num);
 
 
 

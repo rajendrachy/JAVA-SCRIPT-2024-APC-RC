@@ -22,9 +22,18 @@
 
 
 const fruits = ['banana', 'apple', 'peach', 'mango', 'grapes'];
-fruits.map((fruit)=> { // arrow function
+fruits.map((fruit)=> { // arrow function // Map function create a new array
     console.log(fruit);
     return fruit.toUpperCase();
 }); // check all this in the console
+
+
+
+// _____________Practicing________________
+
+// const fruit = ['apple',"cat"];
+// fruit.forEach(function(fru) {
+//    console.log(fru);
+// });
 
 

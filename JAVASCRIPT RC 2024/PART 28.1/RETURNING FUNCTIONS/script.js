@@ -1,4 +1,4 @@
-// debugger
+//debugger
 // const a = 4
 // const b = 6
 
@@ -14,7 +14,7 @@
 
 
 
-// ---------------RETURN--------------
+// // ---------------RETURN--------------
 // const a = 4
 // const b = 6
 
@@ -33,7 +33,7 @@
 
 
 
-// ------------ another --------------
+// ------------ Another --------------
 
 function outer() {
     const a = 4

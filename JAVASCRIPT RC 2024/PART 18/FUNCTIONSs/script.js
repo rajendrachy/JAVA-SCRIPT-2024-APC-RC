@@ -15,7 +15,7 @@
 
 
 // --------------Function creation --------------
-// function is created to reduce a redudencies in the program
+// Function is Created to reduce a redudencies in the program
 
 function introduceMe(username = 'Procoder', passion = 'Doctor', age = 30)  {  // function createdconsole.log("Hi"); //==>>>  This is a Function Defination
     // procoder is a default parameter-->> 

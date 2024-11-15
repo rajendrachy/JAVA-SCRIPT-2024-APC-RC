@@ -1,5 +1,5 @@
 // use debugger how to run the progam
-//debugger
+debugger
 
 function introduceMe() {
    console.log("Hi, my name is Rajendra Chaudhary.");

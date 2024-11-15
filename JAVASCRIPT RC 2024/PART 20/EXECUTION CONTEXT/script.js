@@ -17,6 +17,9 @@
 
 
 
+
+
+
 //-----------------2-----------------
 
 // sayHi in the top
@@ -37,14 +40,14 @@
 // -------------- 3 ---------------
 
 // debugger
-const username = "Rajendra";
-const userAge = 19;
-sayHi();
-function sayHi () {
-    const a = 14;
-    const b = 12;
-    addTwoNumber(7, 9);
-}
-function addTwoNumber (a, b) {
-    return a + b;
-}
+// const username = "Rajendra";
+// const userAge = 19;
+// sayHi();
+// function sayHi () {
+//     const a = 14;
+//     const b = 12;
+//     addTwoNumber(7, 9);
+// }
+// function addTwoNumber (a, b) {
+//     return a + b;
+// }

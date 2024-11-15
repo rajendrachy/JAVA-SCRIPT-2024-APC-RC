@@ -1,9 +1,10 @@
 // // Ep -> 40
 // // ----------- function decleration -----------------
-// function square (num) { // function decleration // Parameter
-//   return num * num;
-// }
-// square();
+function square (num) { // function decleration // Parameter
+  return num * num;
+}
+const result = square(2);  // Arguments
+console.log(result);
 
 
 // ---------------- function Expression--------------
@@ -11,7 +12,7 @@
 //     return num * num;
 
 //  }
- // in comsole-> square(num)// num = 0,1,2,3,...........
+ // in console-> square(num)// num = 0,1,2,3,...........
  
 
 
@@ -30,8 +31,9 @@
 
 
 
-// --------- arrow function in the setTimeout()-------------
+// --------- Arrow function in the setTimeout()-------------
 // setTimeout(() => { // arrow function
 //     console.log("Hiii");
 // }, 2000); // 2 second delay
+
 
