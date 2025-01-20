@@ -66,3 +66,5 @@ ageInput.addEventListener('input', (e) => {
 localStorage.clear() // all the data clear from a localstorage
 localStorage.removeItem('name') // key : -->> only one delete
 
+
+

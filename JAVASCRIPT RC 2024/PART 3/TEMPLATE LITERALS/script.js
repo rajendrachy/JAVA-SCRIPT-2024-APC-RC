@@ -1,5 +1,5 @@
 // const message = "Hello world!";
-// console.log(message[4]); // l
+// console.log(message[4]); // o
 // //_________________Length_____________________
 // console.log(message.length); // 12
 
@@ -12,13 +12,11 @@
 // console.log(message.toLocaleLowerCase());
 
 // const faltumsg = '        Hi, I am Rajendra        ';
-// console.log(faltumsg)
-// console.log(faltumsg.trim()) // reduce the spaces from start and end
+//console.log(faltumsg)
+ // console.log(faltumsg.trim()) // reduce the spaces from start and end
 // //                              Only remove the spaces not _____ and other
 //  console.log(faltumsg.trimStart()); // remove the space from start
 // console.log(faltumsg.trimEnd()); // remove the spaces from end
-
-
 
 
 
@@ -28,7 +26,7 @@
 // const finalmsg = "Hi, I am Rajendra Chaudhary";
 // console.log(finalmsg);
 // console.log(finalmsg.includes()); // false
-// console.log(finalmsg.includes("am")); // true -->> because the am string is presence in this string
+// console.log(finalmsg.includes("am")); // true -->> because the am string is present in this string
 // console.log(finalmsg.includes("the")); // false -->> because "the" -> is not presence
 
 
@@ -42,6 +40,7 @@
 
 
 // 3. ------------replace()  and replaceAll()--------------
+
 // const finalmsg = "Hi, I am Rajendra Chaudhary";
 // console.log(finalmsg);
 // console.log(finalmsg.replace("Hi", "Hello")); // Hi -->> Hello
@@ -99,15 +98,15 @@
 // -----------------Template Literals in the Js ---------------------
 // TempleteLiteral is introduced in the 2015
 
-const lastFourDigits = '1234';
-const bankAccount = 122445;
+// const lastFourDigits = '1234';
+// const bankAccount = 122445;
 
-const templateString  = `Last four digit of my account is ${lastFourDigits}`;
-const templateStrin = `Last four digit of my account is` + " "  + lastFourDigits; // it is not a best method
-const templateStri = `Last four digit of my account is `.concat(lastFourDigits); // it is not a best methos
-const temple2 = `I have $${bankAccount} in my account.`; // $ also show
+// const templateString  = `Last four digit of my account is ${lastFourDigits}`;
+// const templateStrin = `Last four digit of my account is` + " "  + lastFourDigits; // it is not a best method
+// const templateStri = `Last four digit of my account is `.concat(lastFourDigits); // it is not a best methos
+// const temple2 = `I have $${bankAccount} in my account.`; // $ also show
 
-console.log(templateString);
-console.log(templateStrin);
-console.log(templateStri);
-console.log(temple2);  
+// console.log(templateString);
+// console.log(templateStrin);
+// console.log(templateStri);
+// console.log(temple2);  

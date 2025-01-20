@@ -1,5 +1,5 @@
-// condition for the append element 
-// ------the append element should not be parent-------- 
+// Condition for the append element 
+// ------The append element should not be Parent-------- 
 
 
 // const h1 = document.querySelector('h1');
@@ -15,7 +15,10 @@
 // }
 
 
-// all using a js
+
+
+
+// All using a js
 
 // __________Create element__________________________
 // const p = document.createElement('p');
@@ -46,3 +49,8 @@ for(let i=2; i<=100; i++) {
     image.src = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${i}.png`; // pockmans
     container.append(image);
 }
+
+
+
+
+

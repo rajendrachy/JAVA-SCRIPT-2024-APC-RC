@@ -5,11 +5,14 @@
 // // const color1 = colors[0]
 // // const color2 = colors[1]
 // // const color3 = colors[2]
+// // console.log(color1);
 
-// // const [color1, color2, color3] = colors
 
-// // const [,,,color4] = colors
-// const { 3: color4, 5: color5 } = colors
+//  //const [color1, color2, color3] = colors
+
+//  const [,,,color4] = colors
+//  console.log(color4);
+// // const { 3: color4, 5: color5 } = colors
 
 
 
@@ -37,8 +40,8 @@ const user = {
 
 
 
-function intro({age}) {
-   console.log(age); // 25 from the objects
+function intro({name}) {
+   console.log(name); // 25 from the objects
  }
  intro(user);
 

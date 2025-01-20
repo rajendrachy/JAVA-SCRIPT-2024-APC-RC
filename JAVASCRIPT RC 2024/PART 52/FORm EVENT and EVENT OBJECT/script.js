@@ -23,6 +23,7 @@
 // });
 
 
+
 // const userInput = document.querySelector('#username');
 // const paragraph = document.querySelector('p');
 // userInput.addEventListener('input', (e) => {
@@ -80,31 +81,33 @@
 
 
 //_________Submit______________
+const form = document.querySelector('form');
+form.addEventListener('submit', (e) => {
+       e.preventDefault();
+       const myFormData = new FormData(form);
+       // console.log(myFormData);
+
+
+// console.log(myFormData.entries());
+     for(const p of myFormData.entries()) {
+        console.log(p);
+     }
+     
+});
+
+
+
+
+
+
 // const form = document.querySelector('form');
-// form.addEventListener('submit', (e) => {
+// form.addEventListener('click', (e) => {
 //        e.preventDefault();
-//        const myFormData = new FormData(form);
-//        // console.log(myFormData);
-
-
-// // console.log(myFormData.entries());
-//      for(const p of myFormData.entries()) {
-//         console.log(p);
-//      }
+//        // console.log(e.target); // print where we clicked
+//        console.log(e.currentTarget); // print only a form i.e form
+//        console.log('Form clicked');
 // });
 
-
-
-
-
-
-const form = document.querySelector('form');
-form.addEventListener('click', (e) => {
-       e.preventDefault();
-       // console.log(e.target); // print where we clicked
-       console.log(e.currentTarget); // print only a form i.e form
-       console.log('Form clicked');
-});
 
 
 

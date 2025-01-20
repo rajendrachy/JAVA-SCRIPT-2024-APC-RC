@@ -12,6 +12,7 @@
 // }, 2000) // after 2 second
 
 
+
 // ____________TYR IN CONSOLE OF ANY WEBSITE_________________________
 
 // 4.location.href -> provide the link 

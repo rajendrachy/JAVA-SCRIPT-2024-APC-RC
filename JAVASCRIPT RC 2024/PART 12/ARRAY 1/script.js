@@ -2,7 +2,7 @@
 
 // const fruitsCollection = ["apple", "Banana", "Grapes", "Dates"]; // length -->> 4 // Creating Array
 
-// console.log(fruitsCollection[0]); // apple index -->> 0
+// console.log(fruitsCollection[0]); // apple,  index -->> 0
 // console.log(typeof(fruitsCollection)); //object // Type of Array => Objects
 // console.log(typeof {}); // object
 // console.log(typeof []);  // object
@@ -81,13 +81,14 @@
 
 // -------------------- 6-.. -------------------
 
-// const newObject = {};
-// const newArray = [];
-// console.log(newArray);
-// newArray.firstName = 'Rajendra';
-// newArray.push("chaudhary");
-// newArray.push("12")
-// console.log(newArray); // length -->> 0 
-// newObject.firstName = "Rajendra";
-// console.log(newArray);
+const newObject = {};
+const newArray = [];
+console.log(newArray);
+newArray.firstName = 'Rajendra';
+newArray.push("chaudhary");
+newArray.push("12")
+console.log(newArray); // length -->> 0 
+newObject.firstName = "Rajendra";
+console.log(newArray);
+
 

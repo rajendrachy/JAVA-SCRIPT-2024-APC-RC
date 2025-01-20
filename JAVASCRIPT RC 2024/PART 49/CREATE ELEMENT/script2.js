@@ -52,14 +52,14 @@
 
 
 // _________OR_______// using a empty string
-const container = document.querySelector(".container");
-let myHtml = ``
-for(let i=1; i<=100; i++) {
-    myHtml += `
-    <div class="img-container">
-        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${i}.png" alt="">
-        <p>${i}</p>
-      </div>
-    `
-}
-container.innerHTML = myHtml;
+// const container = document.querySelector(".container");
+// let myHtml = ``
+// for(let i=1; i<=100; i++) {
+//     myHtml += `
+//     <div class="img-container">
+//         <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${i}.png" alt="">
+//         <p>${i}</p>
+//       </div>
+//     `
+// }
+// container.innerHTML = myHtml;

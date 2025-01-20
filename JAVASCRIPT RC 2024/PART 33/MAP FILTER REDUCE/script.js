@@ -2,11 +2,11 @@
 
 // _____________ MAP AND FOREACH__________________
 
-// const months = ['January', 'February', 'March', 'April', 'May', 'December']
+ const months = ['January', 'February', 'March', 'April', 'May', 'December']
 
-// months.map((month)=> {
-//     console.log(month);
-// });
+months.map((month)=> {
+    console.log(month);
+});
 
 // const months = ['January', 'February', 'March', 'April', 'May', 'December']
 // months.forEach((month)=> { 
@@ -18,7 +18,7 @@
 
 
 // const months = ['January', 'February', 'March', 'April', 'May', 'December']
-// const capitalMonth = months.map((month) => { // map create a new array and written that value inthe new array 
+// const capitalMonth = months.map((month) => { // map create a new array and written that value in the new array 
 //     console.log(month);
 //     return month.toUpperCase();
 // });
@@ -26,14 +26,18 @@
 
 
 
+
+
 // ----------- INDEX in the case of the MAP----------
 
 // const months = ['January', 'February', 'March', 'April', 'May', 'December']
-// const capitalMonth = months.map((month, index) => { // map create a new array and written that value inthe new array 
-//     console.log("The indes is", index, ",", "Months: ", month);
+// const capitalMonth = months.map((month, index) => { // map create a new array and written that value in the new array 
+//     console.log("The index is : ", index, ",", "Months: ", month);
 //     return month.toUpperCase();
 // });
 // console.log(capitalMonth); // print in the capitan and craete a new array inthe js
+
+
 
 
 
@@ -57,17 +61,17 @@
 
 // const months = ['January', 'February', 'March', 'April', 'May', 'December']
 // const filteredMonth = months.filter((month, index, array) => { 
-//         //// console.log("The indes is", index, ",", "Months: ", month);
-//         // console.log(array);
-//         console.log(month.length);
-//         // return true;
-//         // return false;
+        // console.log("The indes is", index, ",", "Months: ", month);
+        // console.log(array);
+        // console.log(month.length);
+        // return true;
+        // return false;
 
-//         // condition
-//         // return month.length <=5; // return that string which value is ===>>> ans_<=5
-//         // return (month.length == 5 || month.length > 5);
+        // condition
+        //return month.length <=5; // return that string which value is ===>>> ans_<=5
+        // return (month.length == 5 || month.length > 5);
 
-//         // return month.toLowerCase().includes('m'); // whose have the letter 'm' in this array 
+        // return month.toLowerCase().includes('m'); // whose have the letter 'm' in this array 
 //         return index>=3;
 //     });
 // console.log(filteredMonth); 
@@ -76,33 +80,33 @@
 
 
 // ____________task_________________________
-const student = [ // array
-   {
-    name : "Akash",
-    age : 21,
-  },
+// const student = [ // array
+//    {
+//     name : "Akash",
+//     age : 21,
+//   },
     
-  {
-    name : "Raj",
-    age : 17,
-  },
+//   {
+//     name : "Raj",
+//     age : 17,
+//   },
 
-  {
-   name : "Rajendra",
-   age : 19,
-  },
+//   {
+//    name : "Rajendra",
+//    age : 19,
+//   },
 
-  {
-    name : "Ram",
-    age : 23,
-   },
+//   {
+//     name : "Ram",
+//     age : 23,
+//    },
 
-   {
-    name : "Rakesh",
-    age : 20,
-   },
+//    {
+//     name : "Rakesh",
+//     age : 20,
+//    },
 
-];
+// ];
 
 // const adultStudents = student.filter((student) => {
 //     return student.age >= 18;

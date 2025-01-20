@@ -18,7 +18,6 @@
 
 
 //3. ___________document.getElementById()____________________
-
 // const csImg = document.getElementById('css-image'); // give only one first id result in console
 // console.log(csImg);
 
@@ -55,7 +54,7 @@ const imagesUrl = [
     'https://i0.wp.com/picjumbo.com/wp-content/uploads/amazing-stone-path-in-forest-free-image.jpg?w=600&quality=80',
     'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS93ninT4YOJq7Q-mEX5vUscnfPx3pynwF2m0Egh-j--UBdB68TUMb02gWCECXhouil3jI&usqp=CAU',
 ]
-// console.log(allImages);
+console.log(allImages);
 // __________using Simple Way________________
 //  allImages[0].src = imagesUrl[0];
 //  allImages[1].src = imagesUrl[1];
@@ -72,6 +71,7 @@ const imagesUrl = [
 allImages.forEach((image, i) => { // forEach loop is used in the array or in Nodes  not used in the HTML collection
     image.src = imagesUrl[i];
 })
+
 
 
 

@@ -38,7 +38,7 @@ card.addEventListener('click', () => {
     newcard.innerText = count;
     // count  += 1;
     count++;
-    console.log(newcard);
+    //console.log(newcard);
 })
 
 

@@ -47,7 +47,7 @@
 
 //4 . ----------- Math.random() ------------------------
 //console.log(Math.random()); // math.random() given the number between 0 to 1 but not 1 
-// it gives the random nuberr while run 1000 times or not give same value 
+// it gives the random number while run 1000 times or not give same value 
 
 
 

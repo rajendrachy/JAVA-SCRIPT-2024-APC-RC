@@ -5,12 +5,12 @@
 
 
 // const h1 = document.querySelector('h1');
-// h1.style.backgroundColor = "pink"; // more priority than CSS style
+// h1.style.backgroundColor = "pink"; // More priority than CSS style
 // h1.style.color = 'black';
 
 
 
-const allLinks = document.querySelectorAll('a');
+// const allLinks = document.querySelectorAll('a');
 // for(let i=0; i<allLinks.length; i++) {
 //     allLinks[i].style.color = 'goldenrod';
 
@@ -18,12 +18,13 @@ const allLinks = document.querySelectorAll('a');
 
 
 for(let link of allLinks) {
-    // link.style.color = 'red';
-    // link.style.textDecoration = 'none';
-    // link.style.fontWeight = 'bold'; //700
-    // link.style.fontFamily = 'cursive'; 
+//     link.style.color = 'red';
+//     link.style.textDecoration = 'none';
+//     link.style.fontWeight = 'bold'; //700
+//     link.style.fontFamily = 'cursive'; 
 
 // or, 
+
 
     // link.style.cssText = 
     // `
@@ -38,8 +39,9 @@ for(let link of allLinks) {
 
     // or
 
+
     link.className = 'green-link';
-    // link.setAttribute('class', 'green-link');
+    link.setAttribute('class', 'green-link');
 
 
 
@@ -53,8 +55,6 @@ for(let link of allLinks) {
 
     // link.classList.add('green-link');
     // link.classList.remove('my-link');
-
-
 }
 
 
