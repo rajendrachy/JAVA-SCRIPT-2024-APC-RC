@@ -1,0 +1,76 @@
+/* .container {
+
+    background-color: aquamarine;
+    height: 400px;
+    width: 600px;
+
+}
+
+
+input {
+    padding: 10px;
+    display: block;
+    margin: 20px;
+    outline: none;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 20px;
+
+}
+
+th {
+    padding: 20px;
+    margin: 20px;
+}
+
+ */
+
+
+
+/* ---------------2nd time same */
+
+#name {
+    margin: 10px;
+    padding: 10px;
+    width: 90%;
+    border-radius: 20px;
+    outline: none;
+    border-top: none;
+}
+
+#ids {
+    margin: 10px;
+    padding: 10px;
+    width: 93%;
+    border-radius: 20px;
+    outline: none;
+    border-top: none;
+}
+
+#tab {
+    border-collapse: collapse;
+    margin-left: 40%;
+}
+
+button {
+    padding: 10px;
+    background-color: rgb(240, 128, 231);
+    border-radius: 13px;
+    margin-top: 200px;
+    margin-left: 240px;
+}
+#tab th{
+    
+    margin: 30px;
+    padding: 40px;
+
+}
+
+form {
+    height: 600px;
+    width: 600px;
+    background-color: lightcyan;
+    margin-left: 40%;
+}

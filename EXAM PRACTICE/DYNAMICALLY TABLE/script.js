@@ -12,6 +12,8 @@ const users = [
 ];
 
 
+
+
 // let tableBody = document.querySelector('#table-body');
 // users.forEach((user) => {
 //     let row = document.createElement('tr');
@@ -22,24 +24,48 @@ const users = [
 //                      <td> ${user.address}</td>
 //     `;
 //     tableBody.appendChild(row);
-// })
+// });
 
 
 
-// __________________Practice____________
-let tBody = document.querySelector('#table-body')
 
-users.forEach((user) => {
-    let row = document.createElement('tr');
+
+
+
+// __________________Practice__________________________
+
+// let tBody = document.querySelector('#table-body')
+
+// users.forEach((user) => {
+//     let row = document.createElement('tr');
+
+//     row.innerHTML = `
+//                    <td> ${user.id}</td>
+//                    <td> ${user.name}</td>
+//                    <td> ${user.username}</td>
+//                    <td> ${user.email}</td>
+//                    <td> ${user.address};
+//     `;
+
+//     tBody.append(row);
+// });
+
+
+
+
+let tbdy = document.querySelector("#table-body");
+
+users.forEach(value => {
+    let row = document.createElement("tr");
 
     row.innerHTML = `
-                   <td> ${user.id}</td>
-                   <td> ${user.name}</td>
-                   <td> ${user.username}</td>
-                   <td> ${user.email}</td>
-                   <td> ${user.address};
-
-
+         <td>${value.id}</td>
+         <td>${value.name}</td>
+         <td>${value.username}</td>
+         <td>${value.email}</td>
+         <td>${value.address}</td>
     `;
-    tBody.append(row);
+    tbdy.appendChild(row);
 });
+
+

@@ -1,0 +1,26 @@
+.container {
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    background-color: lightblue;
+}
+
+
+
+
+#add {
+    padding: 15px;
+    border: 1px solid red;
+    border-radius: 50%;
+    background-color: lightgreen;
+    margin: 400px;
+}
+
+#remove {
+    padding: 15px;
+    border: 1px solid red;
+   border-radius: 50%;
+   background-color: lightgreen;
+
+}
+

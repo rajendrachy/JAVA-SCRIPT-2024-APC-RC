@@ -1,0 +1,19 @@
+h1 {
+    background-color: rgba(127, 255, 212, 0.263);
+}
+
+
+label{
+    font-weight: 700px;
+    font-size: 24px;
+}
+
+input {
+    padding: 10px;
+    outline: none;
+}
+
+
+input[type="checkbox"] {
+  padding: 20px;
+}

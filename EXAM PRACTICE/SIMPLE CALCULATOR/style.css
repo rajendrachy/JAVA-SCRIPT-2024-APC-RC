@@ -1,0 +1,23 @@
+h1 {
+    
+    background-color: antiquewhite;
+    height: 70px;
+}
+
+#inp {
+    display: block;
+    margin: 20px;
+    height: 30px;
+}
+
+
+button{
+    padding: 15px;
+    margin: 10px;
+}
+
+#result {
+ height: 30px;
+ display: block;
+ margin: 20px;
+}

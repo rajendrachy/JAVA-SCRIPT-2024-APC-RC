@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('load', () => {
     const colorPicker = document.getElementById('colorPicker');
     const colorDisplay = document.getElementById('colorDisplay');
     const colorCode = document.getElementById('colorCode');

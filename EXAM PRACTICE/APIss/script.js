@@ -28,7 +28,6 @@
 
 
 
-
 // ____________API FETCH_______________
 
 // let request = new XMLHttpRequest;
@@ -41,6 +40,7 @@
 //   console.log(request.response);
 
 //   let data = JSON.parse(request.response);
+//   console.log(data);
 //   data.forEach(value => {
 //     let para = document.createElement('p');
 //     // para.innerText = value.name + " " + value.id;
@@ -49,28 +49,47 @@
 //     }
 
 //     document.body.appendChild(para);
+//   });
+// });
+
+
+
+
+
+// fetch("https://feecq.github.io/api/users.json")
+//   .then(response => response.json())
+//   .then(data => {
+//     console.log(data);
+
+//     data.forEach(value => {
+//       let para = document.createElement('p');
+//       for (let key in value) {
+//         para.innerText += `${key}: ${value[key]} `;
+//       }
+//       document.body.appendChild(para);
+//     });
 //   })
-// })
+//   .catch(error => console.error("Error fetching data:", error));
 
 
 
-// ++++++++++++++++++ ______API___+++++++++++++++ FETCH ________Practicing________
-let request = new XMLHttpRequest;
-request.open("GET", "https://feecq.github.io/api/users.json");
-request.send();
 
-request.addEventListener("load", () => {
-  console.log(request.response);
-  let data = JSON.parse(request.response);
-  data.forEach(value => {
-    let para = document.createElement('p');
-    for(let key in value) {
-      para.innerText += `${key} : ${value[key]}`;
-    }
+// const button = document.querySelector("#btn");
 
-    document.body.appendChild(para);
-  });
-});
+//     fetch("https://feecq.github.io/api/users.json")
+//         .then(response => response.json())
+//         .then(data => {
+//            console.log(data);
+//             data.forEach(value => {
+//                 let para = document.createElement("p");
+//                 for (let key in value) {
+//                     para.innerText += `${key}: ${value[key]} `;
+//                 }
+//                 document.body.appendChild(para);
+//             });
+//         })
+//         .catch(error => console.error("Error fetching data:", error));
+
 
 
 

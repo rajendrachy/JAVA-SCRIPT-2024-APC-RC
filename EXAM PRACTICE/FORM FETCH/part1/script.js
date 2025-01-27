@@ -13,22 +13,21 @@ submit.addEventListener("submit", (e) => {
   const genders = document.getElementsByName("gender");
   let gender = "Not specified";
 
-
+  
   genders.forEach((radio) => {
     if (radio.checked) {
       gender = radio.value;
     }    
   });
     
+
+
   // let num = document.querySelector(".contact");
   //   if (typeof num.value == "string") {
   //     // alert("error");
   //   } else if(typeof num.value == "number") {
   //     alert("Correct");
   //   }
-
-
-
 
 
 

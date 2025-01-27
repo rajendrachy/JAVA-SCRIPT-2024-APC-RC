@@ -12,12 +12,10 @@ submit.addEventListener("submit", (e) => {
     row.innerHTML = `
     <td> ${first.value}</td>
     <td> ${second.value}</td>
-
     `;
     table.appendChild(row);
-
 
     first.value = " ";
     second.value = " ";
     
-})
+});

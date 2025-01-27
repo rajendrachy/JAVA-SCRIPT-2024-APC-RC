@@ -8,6 +8,7 @@
 // input.setAttribute('id', 'elementTxt');
 // inpId.append(input);
 
+
 // // button
 // const btn = document.createElement('button');
 // btn.textContent = 'Delete Element';
@@ -24,10 +25,13 @@
 //     }
 //   }
 
+
+
 //   numberArray = ans; // Update numberArray
 //   const headi = document.getElementById('he');
 //   headi.textContent = numberArray; // Update text content
 // }
+
 
 
 // btn.addEventListener("click", deleteArray);
